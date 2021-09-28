@@ -21,6 +21,8 @@ public class Trader {
      * @param item_list A List of Tradable objects that may be placed in
      *                  either this Trader's inventory or wishlist.
      */
+
+
     public Trader(List<Tradable> item_list) {
         // Select a random number between [20, 120) for money
         Random randomizer = new Random();
@@ -96,8 +98,9 @@ public class Trader {
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
                 new Horse(),
-                new Horse()
-                // TODO: Add Tradable objects here!
+                new Horse(),
+                new Cat(),
+                new Cat()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
